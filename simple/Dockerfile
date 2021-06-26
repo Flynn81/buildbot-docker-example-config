@@ -22,6 +22,7 @@ RUN         apt-get update && \
     apt-get -y upgrade && \
     apt-get -y install -q \
     build-essential \
+    make \
     git \
     subversion \
     python3-dev \
