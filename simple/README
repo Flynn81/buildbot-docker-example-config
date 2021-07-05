@@ -1,6 +1,6 @@
 docker build -t tk/tkdo-worker .
 
-docker run --rm -it --entrypoint bash <image-name-or-id>
+docker run --rm -it --entrypoint bash e344bfac2ba1
 
 
 Buildbot: build/test automation
